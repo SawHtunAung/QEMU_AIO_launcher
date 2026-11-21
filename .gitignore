@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Local runtime presets & exported logs
+qemu_all_in_one_presets.json
+qemu_session_log.txt
+
+# Disk images & firmware binaries (avoid committing large binary images)
+*.img
+*.qcow2
+*.raw
+*.iso
+*.fd
+*.bin
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
